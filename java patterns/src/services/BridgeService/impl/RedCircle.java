@@ -1,0 +1,10 @@
+package services.BridgeService.impl;
+
+import services.BridgeService.IDrawAPI;
+
+public class RedCircle implements IDrawAPI {
+    @Override
+    public void drawCircle(int radius, int x, int y) {
+        System.out.println("Drawing Circle[ color: red, radius: " + radius + ", x: " + x + ", " + y + "]");
+    }
+}
